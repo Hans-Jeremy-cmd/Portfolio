@@ -29,7 +29,7 @@
 
         .frame {
             width: 100vw;
-            height: 82.75vh;
+            height: 81.389vh;
             background: linear-gradient(to bottom, rgba(212, 26, 2, 0.582), rgb(255, 51, 0));
             backdrop-filter: blur(5px);
             padding: 20px;
@@ -575,17 +575,30 @@
             text-transform: uppercase;
             transform: skewX(-12deg);
         }
+        footer a {
+
+            margin-top: 5px;
+            background: linear-gradient(45deg, #cacaca, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: -1.5px;
+            text-transform: uppercase;
+            transform: skewX(-12deg);
+        }
 
         .row {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 3px;
         }
 
         .contact {
             text-align: left;
-            font-size: 15px;
-            padding: 0px 2px;
+            font-size: 12px;
+            padding: 0px 1px;
         }
     </style>
 </head>
@@ -806,12 +819,16 @@
         </div>
         <div>
             <div class="row">
-                <img src="Images/gmail.jpg" width="20px">
+                <img src="Images/gmail.jpg" width="15px">
                 <p class="contact">Email: hans.jeremy0326@gmail.com</p>
             </div>
             <div class="row">
-                <img src="Images/linkedin.png" width="20px">
-                <p class="contact">LinkedIn: https://www.linkedin.com/in/hans-jeremy-584175311/</p>
+                <img src="Images/linkedin.png" width="15px">
+                <a href="https://www.linkedin.com/in/hans-jeremy-584175311/" class="contact">LinkedIn: https://www.linkedin.com/in/hans-jeremy-584175311/</a>
+            </div>
+            <div class="row">
+                <img src="Images/Github.png" width="15px">
+                <a href="https://github.com/Hans-Jeremy-cmd" class="contact">Github: https://github.com/Hans-Jeremy-cmd</a>
             </div>
         </div>
     </footer>
